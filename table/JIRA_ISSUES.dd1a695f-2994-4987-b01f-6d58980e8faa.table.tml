@@ -1,0 +1,190 @@
+guid: dd1a695f-2994-4987-b01f-6d58980e8faa
+table:
+  name: JIRA_ISSUES
+  db: SPOTAPPS_DB
+  schema: JIRA
+  db_table: JIRA_ISSUES
+  connection:
+    name: SF
+    fqn: 3e80c022-327c-48dd-9d9a-9c664f92e268
+  columns:
+  - name: ID
+    db_column_name: ID
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: PROJECT_NAME
+    db_column_name: PROJECT_NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: PROJECT_KEY
+    db_column_name: PROJECT_KEY
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: KEY
+    db_column_name: KEY
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: ISSUE_TYPE_NAME
+    db_column_name: ISSUE_TYPE_NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: STATUS_NAME
+    db_column_name: STATUS_NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: PRIORITY_NAME
+    db_column_name: PRIORITY_NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: RESOLUTION_NAME
+    db_column_name: RESOLUTION_NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: RESOLUTION_DESCRIPTION
+    db_column_name: RESOLUTION_DESCRIPTION
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: RESOLUTION_DATE
+    db_column_name: RESOLUTION_DATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: DESCRIPTION
+    db_column_name: DESCRIPTION
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CREATOR
+    db_column_name: CREATOR
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CREATOR_EMAIL
+    db_column_name: CREATOR_EMAIL
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: ASSIGNEE
+    db_column_name: ASSIGNEE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: ASSIGNEE_EMAIL
+    db_column_name: ASSIGNEE_EMAIL
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: REPORTER
+    db_column_name: REPORTER
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: REPORTER_EMAIL
+    db_column_name: REPORTER_EMAIL
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: DUE_DATE
+    db_column_name: DUE_DATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DATE
+  - name: CREATED
+    db_column_name: CREATED
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: UPDATED
+    db_column_name: UPDATED
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: DATE_TIME
+  - name: TIME_ORIGINAL_ESTIMATE
+    db_column_name: TIME_ORIGINAL_ESTIMATE
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: TIME_ESTIMATE
+    db_column_name: TIME_ESTIMATE
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: TIME_SPENT_SECONDS
+    db_column_name: TIME_SPENT_SECONDS
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: TIME_SPENT
+    db_column_name: TIME_SPENT
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: REMAINING_ESTIMATE
+    db_column_name: REMAINING_ESTIMATE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: ORIGINAL_ESTIMATE
+    db_column_name: ORIGINAL_ESTIMATE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: ENVIRONMENT
+    db_column_name: ENVIRONMENT
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: SUMMARY
+    db_column_name: SUMMARY
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
