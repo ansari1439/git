@@ -35,3 +35,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Brand1\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1ff4fb5f-4029-41c7-85d2-d55b15b1c3a7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"0e074609-d80d-4ee2-8344-78a05dc35838\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Brand1\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#FF8142\"}]}"
       display_mode: CHART_MODE
     viz_guid: b68b6353-1e80-49b1-a5e6-4f3b099ee557
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: SMALL
