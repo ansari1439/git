@@ -1,11 +1,12 @@
 guid: fcfbc03e-a711-4f3a-b97c-5152943de7ab
 liveboard:
-  name: tsadmin's first Liveboard 13
+  name: tsadmin's first Liveboard 14
   description: sa
   visualizations:
   - id: Viz_1
     answer:
       name: Total Tax by Brand1
+      description: qw
       tables:
       - id: Parameters WS
         name: Parameters WS
@@ -39,4 +40,4 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: LARGE_SMALL
+      size: MEDIUM
