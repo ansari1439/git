@@ -1,7 +1,7 @@
 guid: 49af1d22-7a83-4677-9747-6dcbce86b048
 liveboard:
   name: Fri-31-may 2
-  description: "2"
+  description: 2s
   visualizations:
   - id: Viz_1
     answer:
@@ -36,3 +36,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"f7671e6a-5389-4df6-9754-190fe97dadb3\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"11a956ab-fbd2-4d8a-826b-668eb834d4fe\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#8C62F5\"}]}"
       display_mode: CHART_MODE
     viz_guid: 0b3b21f6-a61f-48b6-a57e-08faaf9185f6
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
