@@ -1,6 +1,7 @@
 guid: fcfbc03e-a711-4f3a-b97c-5152943de7ab
 liveboard:
-  name: tsadmin's first Liveboard
+  name: tsadmin's first Liveboard 8
+  description: qqqq
   visualizations:
   - id: Viz_1
     answer:
@@ -35,3 +36,7 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Brand1\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"5920334a-a646-43be-a1f7-823b271bffce\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"65320ea5-327f-4418-a8c3-e044fef7438a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Brand1\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#8C62F5\"}]}"
       display_mode: CHART_MODE
     viz_guid: e191d4e0-766b-4979-9048-93f88c0292b3
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: LARGE_SMALL
