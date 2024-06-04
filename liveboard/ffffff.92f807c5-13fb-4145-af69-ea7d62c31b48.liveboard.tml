@@ -35,3 +35,17 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Category\",\"columnProperty\": {}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"99a4612f-4a90-406f-8c95-ee2b07526979\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"c330135e-4c66-4f3d-92ed-f7c39e016431\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Revenue\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 33ba2d7d-7dab-409e-8d24-0751c2723bc4
+  filters:
+  - column:
+    - Brand1
+    oper: in
+    values:
+    - mfgr#3328
+    - mfgr#3329
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
