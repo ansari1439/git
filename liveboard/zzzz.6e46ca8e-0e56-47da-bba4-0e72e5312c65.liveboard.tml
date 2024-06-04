@@ -44,4 +44,18 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  views:
+  - view_guid: f98b0365-2964-4940-8525-2b245c1b1a58
+    name: z
+    view_filters:
+    - column:
+      - Category
+      oper: in
+      values:
+      - mfgr#11
+      - mfgr#12
+    is_public: false
