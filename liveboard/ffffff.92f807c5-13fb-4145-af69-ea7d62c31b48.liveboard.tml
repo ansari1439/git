@@ -48,4 +48,20 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  views:
+  - view_guid: ef97b143-2839-4264-9f23-1c747c88c79d
+    name: aaa
+    view_filters:
+    - column:
+      - Brand1
+      oper: in
+      values:
+      - mfgr#3328
+      - mfgr#3329
+      - mfgr#111
+      - mfgr#1110
+    is_public: false
