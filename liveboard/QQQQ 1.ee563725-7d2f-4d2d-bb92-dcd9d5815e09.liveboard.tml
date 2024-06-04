@@ -1,6 +1,7 @@
 guid: ee563725-7d2f-4d2d-bb92-dcd9d5815e09
 liveboard:
-  name: QQQQ
+  name: QQQQ 1
+  description: a
   visualizations:
   - id: Viz_1
     answer:
