@@ -5,8 +5,8 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Total Discount by Type 2
-      description: "2"
+      name: Total Discount by Type 3
+      description: "3"
       tables:
       - id: Parameters WS
         name: Parameters WS
