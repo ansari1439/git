@@ -36,6 +36,39 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Type\",\"columnProperty\": {}},{\"columnId\": \"Total Tax\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ea60d4e2-aedc-47cc-9ba0-9c98a02bb015\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"e7022e3e-7469-4e6d-9ded-0810c4eae8d7\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Type\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: 1f0add8c-866e-416d-8d4c-79eacf52d466
+  - id: Viz_2
+    answer:
+      name: Total Revenue by Type
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Revenue] [Type]"
+      answer_columns:
+      - name: Total Revenue
+      - name: Type
+      table:
+        table_columns:
+        - column_id: Total Revenue
+          headline_aggregation: SUM
+        - column_id: Type
+          headline_aggregation: COUNT_DISTINCT
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Total Revenue
+        - column_id: Type
+        axis_configs:
+        - x:
+          - Type
+          "y":
+          - Total Revenue
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Type\",\"columnProperty\": {}},{\"columnId\": \"Total Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"fee53862-c30c-47d5-8af0-329af5501c40\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Revenue\"],\"isOpposite\": false}},{\"id\": \"a3d50943-6c03-4d1e-965d-260a87e69cc9\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Type\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Revenue\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 52f132b5-edc6-47cb-a833-01b9293589a2
   layout:
     tiles:
     - visualization_id: Viz_1
