@@ -1,0 +1,56 @@
+guid: a370c573-18a1-4cc6-a2c6-407bf8780c96
+liveboard:
+  name: Mon 10 june
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Tax by Category
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Tax] [Category]"
+      answer_columns:
+      - name: Category
+      - name: Total Tax
+      table:
+        table_columns:
+        - column_id: Category
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Tax
+          headline_aggregation: SUM
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Category
+        - column_id: Total Tax
+        axis_configs:
+        - x:
+          - Category
+          "y":
+          - Total Tax
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 9e1eefdf-42a4-40f4-9709-72913fad3a34
+  filters:
+  - column:
+    - Brand1
+    oper: in
+    values:
+    - mfgr#111
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Container
+    oper: in
+    values:
+    - jumbo pack
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
