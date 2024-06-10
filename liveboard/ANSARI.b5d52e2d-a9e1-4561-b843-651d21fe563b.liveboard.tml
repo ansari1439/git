@@ -45,6 +45,13 @@ liveboard:
     is_single_value: false
     display_name: ""
   layout:
-    tiles:
-    - visualization_id: Viz_1
-      size: MEDIUM
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      id: 95ad052d-7152-4f24-a9de-c9184d341182
