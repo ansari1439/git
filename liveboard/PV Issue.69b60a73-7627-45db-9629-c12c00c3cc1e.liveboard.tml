@@ -73,3 +73,19 @@ liveboard:
       values:
       - sm jar
     is_public: false
+  - view_guid: 51b7c830-28ce-41b0-8cdf-df400e8ed948
+    name: bbb
+    view_filters:
+    - column:
+      - Brand1
+      oper: in
+      values:
+      - mfgr#111
+      - mfgr#1123
+    - column:
+      - Container
+      oper: in
+      values:
+      - sm jar
+      - lg drum
+    is_public: false
