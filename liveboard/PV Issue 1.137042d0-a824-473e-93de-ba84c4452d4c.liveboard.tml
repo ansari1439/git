@@ -33,3 +33,16 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: e627ee1c-bb76-4ea6-87df-79423cc9c9ad
+  filters:
+  - column:
+    - Category
+    oper: in
+    values:
+    - mfgr#11
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
