@@ -54,4 +54,24 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  views:
+  - view_guid: 767de440-1f7e-48cd-93b1-d2ab07ece7a7
+    name: black
+    view_filters:
+    - column:
+      - Color
+      oper: in
+      values:
+      - almond
+      - antique
+      - black
+    - column:
+      - Category
+      oper: in
+      values:
+      - mfgr#11
+    is_public: false
