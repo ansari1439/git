@@ -42,20 +42,15 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: ""
+  - column:
+    - Color
+    oper: in
+    values:
+    - antique
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
-      x: 0
-      "y": 0
-      height: 8
-      width: 6
-  views:
-  - view_guid: f42aecbc-b81a-4699-8a3f-319409d514f0
-    name: aaa
-    view_filters:
-    - column:
-      - Container
-      oper: in
-      values:
-      - jumbo pack
-    is_public: false
+      size: MEDIUM
