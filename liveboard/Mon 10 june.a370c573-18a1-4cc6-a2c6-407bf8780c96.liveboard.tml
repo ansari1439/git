@@ -53,4 +53,23 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  views:
+  - view_guid: f42aecbc-b81a-4699-8a3f-319409d514f0
+    name: aaa
+    view_filters:
+    - column:
+      - Brand1
+      oper: in
+      values:
+      - mfgr#111
+      - mfgr#1118
+    - column:
+      - Container
+      oper: in
+      values:
+      - jumbo pack
+    is_public: false
