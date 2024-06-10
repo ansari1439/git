@@ -50,6 +50,14 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: ""
+  - column:
+    - Container
+    oper: in
+    values:
+    - med can
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
@@ -72,4 +80,9 @@ liveboard:
       oper: in
       values:
       - "1"
+    - column:
+      - Container
+      oper: in
+      values:
+      - med can
     is_public: false
