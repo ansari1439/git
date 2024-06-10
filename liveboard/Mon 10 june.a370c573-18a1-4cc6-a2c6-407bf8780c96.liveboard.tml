@@ -35,14 +35,6 @@ liveboard:
     viz_guid: 9e1eefdf-42a4-40f4-9709-72913fad3a34
   filters:
   - column:
-    - Brand1
-    oper: in
-    values:
-    - mfgr#111
-    is_mandatory: false
-    is_single_value: false
-    display_name: ""
-  - column:
     - Container
     oper: in
     values:
@@ -61,12 +53,6 @@ liveboard:
   - view_guid: f42aecbc-b81a-4699-8a3f-319409d514f0
     name: aaa
     view_filters:
-    - column:
-      - Brand1
-      oper: in
-      values:
-      - mfgr#111
-      - mfgr#1118
     - column:
       - Container
       oper: in
