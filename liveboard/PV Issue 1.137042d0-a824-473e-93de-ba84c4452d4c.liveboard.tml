@@ -42,6 +42,14 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: ""
+  - column:
+    - Size
+    oper: in
+    values:
+    - "1"
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
