@@ -55,3 +55,14 @@ liveboard:
         height: 8
         width: 6
       id: 95ad052d-7152-4f24-a9de-c9184d341182
+  views:
+  - view_guid: f438437e-7387-4808-a775-cb22ab118e3e
+    name: v1
+    view_filters:
+    - column:
+      - Brand1
+      oper: in
+      values:
+      - mfgr#111
+      - mfgr#1110
+    is_public: false
