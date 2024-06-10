@@ -1,0 +1,35 @@
+guid: 137042d0-a824-473e-93de-ba84c4452d4c
+liveboard:
+  name: PV Issue 1
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Tax by Type
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Tax] [Type]"
+      answer_columns:
+      - name: Total Tax
+      - name: Type
+      table:
+        table_columns:
+        - column_id: Total Tax
+          headline_aggregation: SUM
+        - column_id: Type
+          headline_aggregation: COUNT_DISTINCT
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Total Tax
+        - column_id: Type
+        axis_configs:
+        - x:
+          - Type
+          "y":
+          - Total Tax
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: e627ee1c-bb76-4ea6-87df-79423cc9c9ad
