@@ -1,0 +1,50 @@
+guid: b5d52e2d-a9e1-4561-b843-651d21fe563b
+liveboard:
+  name: ANSARI
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Tax by Size
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Tax] [Size]"
+      answer_columns:
+      - name: Size
+      - name: Total Tax
+      table:
+        table_columns:
+        - column_id: Size
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Tax
+          headline_aggregation: SUM
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Size
+        - column_id: Total Tax
+        axis_configs:
+        - x:
+          - Size
+          "y":
+          - Total Tax
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: bc14fb34-7a02-40be-98e9-29680237968c
+  filters:
+  - column:
+    - Brand1
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Color
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
