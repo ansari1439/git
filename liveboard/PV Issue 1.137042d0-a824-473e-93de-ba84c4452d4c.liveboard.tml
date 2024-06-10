@@ -53,4 +53,23 @@ liveboard:
   layout:
     tiles:
     - visualization_id: Viz_1
-      size: MEDIUM
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  views:
+  - view_guid: d167c1eb-48e8-4d90-9951-3ffb7399f7b9
+    name: AAA
+    view_filters:
+    - column:
+      - Category
+      oper: in
+      values:
+      - mfgr#11
+      - mfgr#12
+    - column:
+      - Size
+      oper: in
+      values:
+      - "1"
+    is_public: false
