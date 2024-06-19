@@ -37,6 +37,13 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: ""
+  - column:
+    - Order Date
+    is_mandatory: false
+    date_filter:
+      type: YESTERDAY
+      oper: =
+    display_name: ""
   layout:
     tabs:
     - name: Tab 1
@@ -59,4 +66,9 @@ liveboard:
       - almond
       - antique
       - aquamarine
+    - column:
+      - Order Date
+      date_filter:
+        type: YESTERDAY
+        oper: =
     is_public: false
