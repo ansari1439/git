@@ -64,4 +64,9 @@ liveboard:
       - almond
       - antique
       - aquamarine
+    - column:
+      - Container
+      oper: in
+      values:
+      - jumbo box
     is_public: false
