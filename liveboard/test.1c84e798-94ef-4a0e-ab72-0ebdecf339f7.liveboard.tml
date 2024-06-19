@@ -37,11 +37,6 @@ liveboard:
     is_mandatory: false
     is_single_value: false
     display_name: ""
-  - column:
-    - Container
-    is_mandatory: false
-    is_single_value: false
-    display_name: ""
   layout:
     tabs:
     - name: Tab 1
@@ -64,9 +59,4 @@ liveboard:
       - almond
       - antique
       - aquamarine
-    - column:
-      - Container
-      oper: in
-      values:
-      - jumbo box
     is_public: false
