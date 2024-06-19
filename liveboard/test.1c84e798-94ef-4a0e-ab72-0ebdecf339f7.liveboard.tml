@@ -56,13 +56,6 @@ liveboard:
     name: tests
     view_filters:
     - column:
-      - Color
-      oper: in
-      values:
-      - almond
-      - antique
-      - aquamarine
-    - column:
       - Order Date
       date_filter:
         type: YESTERDAY
