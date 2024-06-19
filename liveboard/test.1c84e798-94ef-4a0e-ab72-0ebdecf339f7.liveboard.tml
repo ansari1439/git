@@ -1,0 +1,62 @@
+guid: 1c84e798-94ef-4a0e-ab72-0ebdecf339f7
+liveboard:
+  name: test
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Discount
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Discount]"
+      answer_columns:
+      - name: Total Discount
+      table:
+        table_columns:
+        - column_id: Total Discount
+          headline_aggregation: SUM
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Discount
+        axis_configs:
+        - "y":
+          - Total Discount
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 61f3ada1-370a-45b9-bad3-794f6f60f64d
+  filters:
+  - column:
+    - Color
+    oper: in
+    values:
+    - almond
+    - antique
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 2
+        width: 3
+      id: ca70bcb5-3ce3-4c20-b135-56d25e759717
+  views:
+  - view_guid: fd062d10-d4a4-42d1-a99f-8f3226606248
+    name: tests
+    view_filters:
+    - column:
+      - Color
+      oper: in
+      values:
+      - almond
+      - antique
+      - aquamarine
+    is_public: false
