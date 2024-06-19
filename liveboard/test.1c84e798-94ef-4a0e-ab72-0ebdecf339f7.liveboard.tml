@@ -30,10 +30,6 @@ liveboard:
   filters:
   - column:
     - Color
-    oper: in
-    values:
-    - almond
-    - antique
     is_mandatory: false
     is_single_value: false
     display_name: ""
