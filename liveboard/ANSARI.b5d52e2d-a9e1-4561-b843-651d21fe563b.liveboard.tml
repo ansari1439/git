@@ -65,4 +65,9 @@ liveboard:
       values:
       - mfgr#111
       - mfgr#1110
+    - column:
+      - Color
+      oper: in
+      values:
+      - bisque
     is_public: false
