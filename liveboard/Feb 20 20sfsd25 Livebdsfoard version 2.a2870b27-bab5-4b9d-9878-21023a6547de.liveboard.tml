@@ -1,12 +1,12 @@
 guid: a2870b27-bab5-4b9d-9878-21023a6547de
 liveboard:
-  name: Feb 20 2025 Liveboard versiasdason asdsa2
+  name: Feb 20 20sfsd25 Livebdsfoard version 2
   visualizations:
   - id: Viz_1
     answer:
-      name: Total Discount by Brand1asdas
+      name: Total Discount by Brand1
       tables:
-      - id: Parametersasdasd WS
+      - id: Parameters WS
         name: Parameters WS
         fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
       search_query: "[Discount] [Brand1]"
@@ -17,7 +17,7 @@ liveboard:
         table_columns:
         - column_id: Brand1
           headline_aggregation: COUNT_DISTINCT
-        - column_id: Total Discountsdsa
+        - column_id: Total Discount
           headline_aggregation: SUM
         ordered_column_ids:
         - Brand1
@@ -41,5 +41,5 @@ liveboard:
     - visualization_id: Viz_1
       x: 0
       "y": 0
-      height: 4
+      height: 8
       width: 12
