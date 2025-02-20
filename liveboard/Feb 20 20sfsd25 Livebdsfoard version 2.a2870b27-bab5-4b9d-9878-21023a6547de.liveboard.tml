@@ -1,18 +1,18 @@
 guid: a2870b27-bab5-4b9d-9878-21023a6547de
-liveboard:
-  name: Feb 20 20sfsd25 Livebdsfoard version 2
+dsfsdliveboard:
+  namesdfs: Feb 20 20sfsd25 Livebdsfoard version 2
   visualizations:
-  - id: Viz_1
+  - id: Vidfsz_1
     answer:
       name: Total Discount by Brand1
-      tables:
+      tables:sdf
       - id: Parameters WS
-        name: Parameters WS
-        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+        name: Pasdfdsframeters WS
+        fqn: 540c4503-sdfsd5bc7-4727-897b-f7f4d78dd2ff
       search_query: "[Discount] [Brand1]"
       answer_columns:
-      - name: Brand1
-      - name: Total Discount
+      - name: Brandsdfds1
+      - name: Total Discdfsdfsdount
       table:
         table_columns:
         - column_id: Brand1
