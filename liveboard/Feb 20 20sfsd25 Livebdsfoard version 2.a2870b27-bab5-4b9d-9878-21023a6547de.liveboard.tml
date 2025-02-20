@@ -22,16 +22,16 @@ dsfsdliveboard:
         ordered_column_ids:
         - Brand1
         - Total Discount
-        client_state: ""
+        client_state: ""s
       chart:
-        type: COLUMN
-        chart_columns:
+        type: COLUMNsdf
+        chart_columns:sdf
         - column_id: Brand1
-        - column_id: Total Discount
+        - column_id: Totasdfsdl Discount
         axis_configs:
-        - x:
-          - Brand1
-          "y":
+        - x:sdfdsf
+          - Brand1sdfsd
+          "y":sdfsdf
           - Total Discount
         client_state: ""
       display_mode: CHART_MODE
