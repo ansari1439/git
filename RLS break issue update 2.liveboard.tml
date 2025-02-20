@@ -1,6 +1,6 @@
 guid: 3e8da8cc-7b2f-4670-b240-da688d3ce095
 liveboard:
-  name: RLS break issue update 2
+  name: RLS break  update 2
   visualizations:
   - id: Viz_1
     answer:
@@ -8,7 +8,7 @@ liveboard:
       tables:
       - id: SERVICES
         name: SERVICES
-      search_query: "[MIN_INSTANCES] [AUTO_RESUME]"
+      search_query: "[AUTO_RESUME]"
       answer_columns:
       - name: AUTO_RESUME
       - name: Total MIN_INSTANCES
