@@ -1,0 +1,19 @@
+guid: 46030ea3-ecba-4cbf-a02c-c2ef5d5f29f1
+connection:
+  name: SnowflakeConnection
+  type: RDBMS_SNOWFLAKE
+  authentication_type: SERVICE_ACCOUNT
+  properties:
+  - key: accountName
+    value: thoughtspot_partner
+  - key: user
+    value: DEV_USER
+  - key: password
+    value: ""
+  - key: role
+    value: DEV
+  - key: warehouse
+    value: DEV_WH
+  - key: database
+    value: SUPPLYCHAIN_MAIN
+  description: ""

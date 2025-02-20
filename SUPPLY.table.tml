@@ -1,0 +1,75 @@
+guid: 4b8896eb-4c83-40f9-be54-c8164326958e
+table:
+  name: SUPPLY
+  db: SUPPLYCHAIN_MAIN
+  schema: PUBLIC
+  db_table: SUPPLIER
+  connection:
+    name: SnowflakeConnection
+  columns:
+  - name: COMPANY_KEY
+    db_column_name: COMPANY_KEY
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: COMPANY_NAME
+    db_column_name: COMPANY_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: COUNTRY_NAME
+    db_column_name: COUNTRY_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: STATE_NAME
+    db_column_name: STATE_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: CITY_NAME
+    db_column_name: CITY_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: POSTALCODE_NAME
+    db_column_name: POSTALCODE_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: PAYMENTTERMS_NAME
+    db_column_name: PAYMENTTERMS_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: PAYMENTTERMSSCORE_KEY
+    db_column_name: PAYMENTTERMSSCORE_KEY
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  - name: PAYMENTTERMSSCORE_NAME
+    db_column_name: PAYMENTTERMSSCORE_NAME
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: VARCHAR
+  properties:
+    sage_config:
+      is_sage_enabled: true

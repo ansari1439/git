@@ -1,0 +1,37 @@
+guid: 3e8da8cc-7b2f-4670-b240-da688d3ce095
+liveboard:
+  name: RLS break issue update 2
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total MIN_INSTANCES by AUTO_RESUME
+      tables:
+      - id: SERVICES
+        name: SERVICES
+      search_query: "[MIN_INSTANCES] [AUTO_RESUME]"
+      answer_columns:
+      - name: AUTO_RESUME
+      - name: Total MIN_INSTANCES
+      table:
+        table_columns:
+        - column_id: AUTO_RESUME
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total MIN_INSTANCES
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - AUTO_RESUME
+        - Total MIN_INSTANCES
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: AUTO_RESUME
+        - column_id: Total MIN_INSTANCES
+        axis_configs:
+        - x:
+          - AUTO_RESUME
+          "y":
+          - Total MIN_INSTANCES
+        client_state: ""
+      display_mode: TABLE_MODE
+    viz_guid: 1bf8f664-4b8e-4a05-a698-371d9b163dcc
