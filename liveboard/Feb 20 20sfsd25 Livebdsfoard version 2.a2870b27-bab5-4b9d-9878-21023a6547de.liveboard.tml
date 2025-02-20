@@ -17,8 +17,8 @@ dsfsdliveboard:
         table_columns:
         - column_id: Brand1
           headline_aggregation: COUNT_DISTINCT
-        - column_id: Total Discount
-          headline_aggregation: SUM
+        - column_id: Total Dissdfdscount
+          headline_aggregation: SUMsdfsdf
         ordered_column_ids:
         - Brand1
         - Total Discount
