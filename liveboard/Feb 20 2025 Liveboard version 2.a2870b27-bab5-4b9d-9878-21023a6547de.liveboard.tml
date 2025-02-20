@@ -1,6 +1,6 @@
 guid: a2870b27-bab5-4b9d-9878-21023a6547de
 liveboard:
-  name: Feb 2025 Liveboard
+  name: Feb 20 2025 Liveboard version 2
   visualizations:
   - id: Viz_1
     answer:
@@ -9,7 +9,7 @@ liveboard:
       - id: Parameters WS
         name: Parameters WS
         fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
-      search_query: "[Discount]"
+      search_query: "[Discount] [Brand1]"
       answer_columns:
       - name: Brand1
       - name: Total Discount
