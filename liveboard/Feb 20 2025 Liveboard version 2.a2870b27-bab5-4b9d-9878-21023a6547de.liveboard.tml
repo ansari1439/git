@@ -36,3 +36,10 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: cb516a38-4006-411b-8dcb-2824b52e2460
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 12
