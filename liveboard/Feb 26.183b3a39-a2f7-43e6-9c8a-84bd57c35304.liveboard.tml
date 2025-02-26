@@ -1,0 +1,38 @@
+guid: 183b3a39-a2f7-43e6-9c8a-84bd57c35304
+liveboard:
+  name: Feb 26
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Discount by Brand1
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Discount] [Brand1]"
+      answer_columns:
+      - name: Brand1
+      - name: Total Discount
+      table:
+        table_columns:
+        - column_id: Brand1
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Discount
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Brand1
+        - Total Discount
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Brand1
+        - column_id: Total Discount
+        axis_configs:
+        - x:
+          - Brand1
+          "y":
+          - Total Discount
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 005e8a16-affc-427a-ad27-dbaf022db608
