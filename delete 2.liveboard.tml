@@ -1,0 +1,41 @@
+guid: 74ed598c-0769-4a01-973d-128442523f14
+liveboard:
+  name: delete 2
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Tax by Brand1
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+      search_query: "[Tax] [Brand1]"
+      answer_columns:
+      - name: Brand1
+      - name: Total Tax
+      table:
+        table_columns:
+        - column_id: Brand1
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Tax
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Brand1
+        - Total Tax
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Brand1
+        - column_id: Total Tax
+        axis_configs:
+        - x:
+          - Brand1
+          "y":
+          - Total Tax
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: f0dd8259-b602-4800-938d-aae8594114c8
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
