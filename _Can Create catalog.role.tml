@@ -1,0 +1,6 @@
+guid: e67e981e-7a5e-47a5-8389-f50f004fec5e
+role_object:
+  name: _Can Create catalog
+  description: Can Create catalog
+  privileges:
+  - CAN_CREATE_CATALOG
