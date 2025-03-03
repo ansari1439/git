@@ -1,6 +1,6 @@
 guid: 183b3a39-a2f7-43e6-9c8a-84bd57c35304
 liveboard:
-  name: Mar 03 2025  version 1
+  name: Feb 28 version 2
   visualizations:
   - id: Viz_1
     answer:
@@ -36,3 +36,33 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: 005e8a16-affc-427a-ad27-dbaf022db608
+  filters:
+  - column:
+    - Brand1
+    oper: in
+    values:
+    - mfgr#111
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 6
+  views:
+  - view_guid: 90b1927d-da6e-479c-9463-d98dc281d50e
+    name: PV
+    view_filters:
+    - column:
+      - Brand1
+      oper: in
+      values:
+      - mfgr#111
+      - mfgr#1110
+    is_public: true
+  ordered_chips:
+  - name: Brand1
+    type: FILTER
