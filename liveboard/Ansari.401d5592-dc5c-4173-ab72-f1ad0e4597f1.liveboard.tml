@@ -1,0 +1,37 @@
+guid: 401d5592-dc5c-4173-ab72-f1ad0e4597f1
+liveboard:
+  name: Ansari
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total C Custkey by C Address
+      tables:
+      - id: Honey_WS_Har
+        name: Honey_WS_Har
+      search_query: "[C Custkey] [C Address]"
+      answer_columns:
+      - name: C Address
+      - name: Total C Custkey
+      table:
+        table_columns:
+        - column_id: C Address
+          show_headline: false
+        - column_id: Total C Custkey
+          show_headline: false
+        ordered_column_ids:
+        - C Address
+        - Total C Custkey
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C Address
+        - column_id: Total C Custkey
+        axis_configs:
+        - x:
+          - C Address
+          "y":
+          - Total C Custkey
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 8b8a4240-725c-433c-a328-5f7c9dfa3b5d
